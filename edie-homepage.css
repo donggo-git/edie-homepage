@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 1.5rem 0;
+    position: fixed;
+    background-color: #ffffff;
+}
+.logo{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.6rem;
+    color: #333333;
+    margin-left: 2.5rem;
+}
+.navigate{
+    display: flex;
+    list-style: none;
+    margin-left : auto;
+    margin-right: 2.5rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.navigate a{
+    color: #333333;
+    margin: 0 1.2rem;
+}
+header{
+    margin: 120px 0;
+}
