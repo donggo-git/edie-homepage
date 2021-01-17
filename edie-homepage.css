@@ -97,3 +97,17 @@ input[type="submit"]{
     padding: 10px 20px;
     margin-left: -12px;
 }
+#service{
+    margin: 8rem 0;
+}
+#service>h2{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 6rem;
+    width: 15rem;
+}
+.service-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
