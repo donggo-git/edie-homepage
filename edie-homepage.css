@@ -91,7 +91,7 @@ input[type="email"]{
 background-color:#F2F2F2;
 color: #BDBDBD;
 }
-input[type="submit"]{
+input[type="submit"], button{
     background-color: #2D9CDB;
     color: #F2F2F2;
     padding: 10px 20px;
@@ -110,4 +110,46 @@ input[type="submit"]{
     margin: 2rem;
     display: flex;
     justify-content: center;
+}
+.service-item{
+    width: 23%;
+    height: auto;
+    margin: 0 2rem;
+    padding: 2rem 5px;
+    
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s;
+}
+.service-item:hover{
+    box-shadow: 0 0 15px rgba(163, 127, 127, 0.15), 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.service-icon{
+    height: 67px;
+    width: 67px;
+    background-color: red;
+    margin: 0 1.2rem;
+    border-radius: 10px;
+}
+.service-name{
+    font-size: 1rem;
+    margin: 1.4rem 1.2rem;
+}
+.service-deital{
+    font-size: 0.9rem;
+    margin: 0 1.2rem;
+}
+.get-started{
+    margin-top: 1.4rem;
+    margin-left: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    color: #828282;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.get-started:hover{
+    background-color: #2D9CDB;
+    color: #F2F2F2;
 }
