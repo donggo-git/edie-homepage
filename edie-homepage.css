@@ -98,7 +98,7 @@ input[type="submit"], button{
     margin-left: -12px;
 }
 #service{
-    margin: 8rem 0;
+    margin: 5rem 0;
 }
 #service>h2{
     font-size: 1.6rem;
@@ -130,6 +130,22 @@ input[type="submit"], button{
     background-color: red;
     margin: 0 1.2rem;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui-ux{
+    background-color: #2D9CDB;
+}
+.frontEnd{
+    background-color: #27AE60;
+}
+.backEnd{
+    background-color: #EB5757;
+}
+.service-icon i {
+    width: 25px;
+    color: #ffffff;
 }
 .service-name{
     font-size: 1rem;
