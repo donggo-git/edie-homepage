@@ -81,6 +81,7 @@ header img{
 }
 .header-input{
     margin: 0.4rem 0;
+    display: flex;
 }
 .header-input input{
     padding: 10px;
@@ -205,4 +206,20 @@ border-radius: 10px;
 .project-name{
     font-size: 1rem;
     font-weight: bold;
+}
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 82%;
+    transform: translateY(-105%);
+}
+.see-more>a,i{
+    color: #2D9CDB;
+    display: block;
+}
+.see-more>i{
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    width: 1rem;
 }
