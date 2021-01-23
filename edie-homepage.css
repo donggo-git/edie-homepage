@@ -223,3 +223,25 @@ border-radius: 10px;
     font-size: 1rem;
     width: 1rem;
 }
+.team{
+    width: 100%;
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+}
+.team-introduce{
+    margin: 0 6rem;
+    width: 15rem;
+}
+.team-introduce h2{
+    font-size: 1.6rem;
+}
+.team-introduce p{
+    font-size: 0.9rem;
+}
+.meet-team{
+    color: #EB5757;
+}
+.teamMember-img{
+    margin-right: auto;
+}
